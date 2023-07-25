@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJS</title>
+</head>
+<body>
+      <script>
+        /*const product = {
+            name: 'socks',
+            price:'1099'
+        };
+        document.write(product.name);
+        document.write(product.price); */
+
+        const product = {
+            name:'socks',
+            price:'1500',
+            rating : {
+                stars:'4.5',
+                review:'positive'
+            }
+        };
+        document.write(product.rating.review)
+        document.write.(JSON.stringify(product));
+
+        const jsonString = JSON.stringify(product);
+        document.write(JSON.parse(jsonString));
+
+         document.write('heelo'.length);
+         document.write('heelo'.toUpperCase)
+
+         </script>
+</body>
+</html>
